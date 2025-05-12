@@ -1,4 +1,4 @@
-package singleton.variante;
+package PregatireTest1.variante;
 
 import java.util.HashMap;
 import java.util.Map;

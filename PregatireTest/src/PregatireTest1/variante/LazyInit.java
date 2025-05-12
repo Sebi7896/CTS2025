@@ -1,4 +1,4 @@
-package singleton.variante;
+package PregatireTest1.variante;
 
 public class LazyInit {
     private static LazyInit INSTANCE;

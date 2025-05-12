@@ -1,4 +1,4 @@
-package singleton.variante;
+package PregatireTest1.variante;
 
 public class EagerInit {
     public static final EagerInit INSTANCE = new EagerInit();
