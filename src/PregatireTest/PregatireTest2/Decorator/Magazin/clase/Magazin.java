@@ -7,10 +7,11 @@ import java.util.List;
 
 public class Magazin implements IMagazin{
 
-
+    //venim cu un decorator peste toata asta
     @Override
     public float calculeazaCostTotalComanda(List<Comanda> comenzi, Client cLient) {
         float costTotalProduse = comenzi.stream().mapToInt(Comanda::getCantitate).sum();
-        float costTransport =
+        float costTransport = cLient.getDistantaAdresaClientAdresa() > 200 ? 10 : 20;
+        return costTotalProduse + costTransport;
     }
 }
