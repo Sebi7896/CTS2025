@@ -12,8 +12,6 @@ public class Inventar implements IInventar {
         this.nrUmerase = nrUmerase;
     }
 
-
-
     @Override
     public void afisareInventar(Camera camera) {
         System.out.println("<<Clientul " + camera.getNumeClient() + " are pentru camera " + camera.getNrCamerei() + " urmatorul inventar " + this);

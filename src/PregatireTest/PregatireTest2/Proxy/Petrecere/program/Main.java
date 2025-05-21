@@ -16,5 +16,8 @@ public class Main {
         petrecereProxy.adaugaParticipantPetrecere(new Client(19,"BIlly"));
         petrecereProxy.adaugaParticipantPetrecere(new Client(5,"Ionel"));
         petrecereProxy.afisarePetreceri();
+
+
+
     }
 }
